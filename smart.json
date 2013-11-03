@@ -4,6 +4,6 @@
   "homepage": "https://github.com/rantav/meteor-migrations",
   "author": "Ran Tavory",
   "version": "0.0.1",
-  "git": "git@github.com:rantav/meteor-migrations.git",
+  "git": "https://github.com/tmeasday/meteor-router.git",
   "packages": {}
 }

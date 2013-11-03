@@ -3,11 +3,11 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.add_files('migrations.js', ['server']);
+  api.add_files('lib/migrations.js', ['server']);
 });
 
 Package.on_test(function (api) {
   api.use('migrations');
 
-  api.add_files('migrations_tests.js', ['server']);
+  api.add_files('tests/migrations_tests.js', ['server']);
 });
