@@ -9,4 +9,4 @@ var migration = Meteor.Migrations.get('1');
 console.log(migration);
 
 var list = Meteor.Migrations.list();
-console.log(list);
+console.log(list.fetch());

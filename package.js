@@ -7,7 +7,7 @@ Package.on_use(function (api, where) {
 });
 
 Package.on_test(function (api) {
-  api.use('migrations');
-
+  api.use(['tinytest', 'test-helpers'], ['server']);
+  api.add_files('lib/migrations.js', ['server']);
   api.add_files('tests/migrations_tests.js', ['server']);
 });
