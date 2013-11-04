@@ -2,6 +2,9 @@ meteor-migrations
 =================
 
 A meteor package for database migrations.  
+
+[![Build Status](https://travis-ci.org/rantav/meteor-migrations.png?branch=master)](https://travis-ci.org/rantav/meteor-migrations)
+
 Datebase migrations are "administrative" updates to your collections, for example iteration over all Items and add a status attribute if the status doesn't already exist.  
 A migration is typically run when refactoring code, for example if the status attribute is a new attribute and it doesn't exist in old Items then you might want to iterate over all items to add this attribute (instead of checking for its existence at runtime). This can make the codebase cleaner and easier to read. It's not always the right solution, but many times it is. 
 
