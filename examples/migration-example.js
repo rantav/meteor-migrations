@@ -1,7 +1,7 @@
 Meteor.startup(function(){
   Meteor.Migrations.add('1', function(log) {
-    // log writes to the console as well as to the database. 
-
+    // log writes to the console as well as to the database.
+    log.info('Hello migrations!');
   });
 });
 
