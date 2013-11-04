@@ -1,2 +1,0 @@
-testx:
-	meteor test-packages ./
